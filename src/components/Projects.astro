@@ -1,0 +1,30 @@
+---
+import ProjectsData from "../data/projects.json";
+---
+
+
+{ProjectsData.map((p) => (
+<div class="mt-4">
+          <div class="flex justify-between items-center gap-2">
+            <h2 class="text-zinc-300 text-sm font-bold">{p.title}</h2>
+            <div class="flex items-center gap-2 text-xs">
+              <a
+                href={p.github}
+                target="_blank"
+                class="text-zinc-400 hover:text-zinc-300">Github</a
+              >
+              <a
+                href={p.live}
+                target="_blank"
+                class="text-zinc-400 hover:text-zinc-300 ml-2">Live</a
+              >
+            </div>
+          </div>
+          <p class="text-zinc-400 text-xs mt-1">
+            {p.description}
+          </p>
+          <p class="text-zinc-600 text-xs mt-1">
+            TailwindCSS | Python | NextJS | ShadCN | TypeScript
+          </p>
+        </div>
+))}

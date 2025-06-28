@@ -1,0 +1,24 @@
+---
+import Projects from "../components/Projects.astro";
+import Layout from "../layouts/Layout.astro";
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout title="Ayush | Home">
+  <section>
+    <h1 class="text-2xl text-zinc-300">Hey, I'm Ayush</h1>
+    <h2 class="text-zinc-300 text-md mt-6">~/whoami</h2>
+    <p class="text-zinc-400 text-sm">
+      I'm a Framework agnostic developer from india who loves to code. I have a
+      strong interest in web development and I'm always looking to learn new
+      technologies and frameworks.
+    </p>
+  </section>
+
+  <section class="mt-8">
+    <h2 class="text-zinc-300 text-lg">Projects</h2>
+	<Projects />
+  </section>
+</Layout>
