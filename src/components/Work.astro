@@ -1,0 +1,15 @@
+---
+import WorkExperience from "../data/Experience.json";
+---
+
+{WorkExperience.map((w) => (
+    <a class="flex flex-row justify-between mt-3" href={w.link} target="_blank">
+        <div>
+            <h1 class="text-zinc-300 text-md">{w.company}</h1>
+            <h2 class="text-zinc-300 text-xs ">{w.role}</h2>
+        </div>
+        
+        <p class="text-zinc-400 text-xs">{w.duration}</p>
+    </a>
+
+))}
