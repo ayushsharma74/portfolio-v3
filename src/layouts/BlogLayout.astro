@@ -21,13 +21,13 @@ const navigation = [
 		<title>{frontmatter.title}</title>
 	</head>
 	<body class="terminal-scanlines bg-zinc-900 min-h-screen text-gray-900 font-mono">
-		<main class="max-w-lg mx-auto px-4 py-8">
+		<main class="max-w-xl mx-auto px-4 py-8">
 			<header class="mb-8 text-sm">
 				{navigation.map(({title, href}) => (
 					<a href={href} class={`text-zinc-400 pr-4 hover:text-zinc-300 ${Astro.url.pathname === href ? "font-extrabold " : ""}`}>{title}</a>
 				))}
 			</header>
-            <h1 class="text-2xl text-zinc-300 ">{frontmatter.title}</h1>
+            <h1 class="text-2xl text-zinc-100 font-bold">{frontmatter.title}</h1>
             <p class="text-zinc-400 text-sm mt-2">{frontmatter.date}</p>
             <Prose>
 			    <slot />
