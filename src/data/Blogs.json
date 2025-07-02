@@ -1,14 +1,20 @@
 [
-    {
-        "title": "Vertical Scaling vs Horizontal Scaling",
-        "description": "A detailed comparison of vertical and horizontal scaling in distributed systems, including their advantages, disadvantages, and use cases.",
-        "date": "20 May, 2025",
-        "slug": "vertical-scaling-vs-horizontal-scaling"
-    },
-    {
-        "title": "Implementing Authentication in NextJS 15 with better auth and MongoDB",
-        "description": "I found better-auth strikes the perfect balance between simplicity and flexibility. It's lightweight, well-documented, and most importantly, it just works without too much configuration headache.",
-        "date": "12 May, 2025",
-        "slug": "implementing-authentication-in-nextjs-15-with-better-auth-and-mongodb"
-    }
+  {
+    "title": "When to Use SSR, CSR, and Everything in Between",
+    "discription": "Building web apps today feels like navigating a maze of acronyms. SSR, CSR, SSG, ISR - it's enough to make your head spin. But here's the thing: each of these rendering strategies exists for a reason",
+    "date": "2 July, 2025",
+    "slug": "when-to-use-ssr-csr-and-everything-in-between"
+  },
+  {
+    "title": "Vertical Scaling vs Horizontal Scaling",
+    "description": "A detailed comparison of vertical and horizontal scaling in distributed systems, including their advantages, disadvantages, and use cases.",
+    "date": "20 May, 2025",
+    "slug": "vertical-scaling-vs-horizontal-scaling"
+  },
+  {
+    "title": "Implementing Authentication in NextJS 15 with better auth and MongoDB",
+    "description": "I found better-auth strikes the perfect balance between simplicity and flexibility. It's lightweight, well-documented, and most importantly, it just works without too much configuration headache.",
+    "date": "12 May, 2025",
+    "slug": "implementing-authentication-in-nextjs-15-with-better-auth-and-mongodb"
+  }
 ]
