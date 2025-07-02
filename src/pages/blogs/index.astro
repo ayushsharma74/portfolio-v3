@@ -1,9 +1,10 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import BlogData from "../../data/Blogs.json"
+const {pathname} = Astro.url
 ---
 
-<Layout title="Ayush | Blogs">
+<Layout title="Ayush | Blogs" pathname={pathname}>
 {BlogData.map((b) => (
     
 	<a class="mx-6" href={`/blogs/${b.slug}`}>

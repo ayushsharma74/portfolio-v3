@@ -2,9 +2,10 @@
 import Layout from "../layouts/Layout.astro";
 import ProjectsComp from "../components/Projects.astro";
 import ProjectsData from "../data/projects.json";
+const {pathname} = Astro.url
 ---
 
-<Layout title="Ayush | Projects">
+<Layout title="Ayush | Projects" pathname={pathname}>
   <div class="mt-8 text-zinc-300 text-sm">
     {
       ProjectsData.map((p) => (
