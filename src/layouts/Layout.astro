@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import PostHog from '../components/posthog.astro';
+import Head from "../components/Head.astro";
 
 const navigation = [
 	{ title: "Home", href: "/" },
@@ -17,9 +18,10 @@ const { pathname } = Astro.url
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{Astro.props.title}</title>
+		<Head />
 		<PostHog />
 	</head>
 	<body class="terminal-scanlines bg-zinc-900 min-h-screen text-gray-900 font-mono">
