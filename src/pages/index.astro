@@ -2,6 +2,7 @@
 import Projects from "../components/Projects.astro";
 import Work from "../components/Work.astro";
 import Layout from "../layouts/Layout.astro";
+import ProjectsData from "../data/projects.json";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -11,11 +12,8 @@ import Layout from "../layouts/Layout.astro";
   <section class="mt-8">
     <h1 class="text-2xl text-zinc-300">Hey, I'm Ayush</h1>
 
-    <h2 class="text-zinc-300 text-md mt-6">~/whoami</h2>
-    <p class="text-zinc-400 text-sm">
-      developer, first principles thinker, and a lifelong learner
-      <br />
-      i like space and computers
+    <p class="text-zinc-400 text-sm mt-1">
+      programmer, first principles thinker, generalist and a lifelong learner
     </p>
     <div class="flex items-center gap-2 mt-2">
       <a href="https://x.com/ayshtwt">
@@ -48,7 +46,7 @@ import Layout from "../layouts/Layout.astro";
           ></svg
         >
       </a>
-      <a href="">
+      <a href="https://www.linkedin.com/in/ayusshhhh/">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -78,6 +76,16 @@ import Layout from "../layouts/Layout.astro";
   </section>
   <section class="mt-8">
     <h2 class="text-zinc-200 text-lg font-bold">~/projects</h2>
-    <Projects />
+    {
+      ProjectsData.map((p) => (
+        <Projects
+          title={p.title}
+          description={p.description}
+          techs={p.techs}
+          github={p.github}
+          live={p.live}
+        />
+      ))
+    }
   </section>
 </Layout>

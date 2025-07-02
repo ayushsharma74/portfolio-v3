@@ -1,8 +1,21 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import ProjectsComp from "../components/Projects.astro";
+import ProjectsData from "../data/projects.json";
 ---
 
 <Layout title="Ayush | Projects">
-	<!-- <Welcome /> -->
-
+  <div class="mt-8 text-zinc-300 text-sm">
+    {
+      ProjectsData.map((p) => (
+        <ProjectsComp
+          title={p.title}
+          description={p.description}
+          techs={p.techs}
+          github={p.github}
+          live={p.live}
+        />
+      ))
+    }
+  </div>
 </Layout>

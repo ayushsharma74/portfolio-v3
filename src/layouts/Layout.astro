@@ -4,7 +4,7 @@ import "../styles/global.css";
 const navigation = [
 	{ title: "Home", href: "/" },
 	{ title: "Blogs", href: "/blogs" },
-	{ title: "Worklog", href: "/worklog" },
+	// { title: "Worklog", href: "/worklog" },
 	{ title: "Projects", href: "/projects" },
 ];
 ---
@@ -22,11 +22,11 @@ const navigation = [
 		<main class="max-w-xl mx-auto px-4 py-8">
 			<header class="text-sm">
 				{navigation.map(({title, href}) => (
-					<a href={href} class={`text-zinc-400 pr-4 hover:text-zinc-300 ${Astro.url.pathname === href ? "font-extrabold " : ""}`}>{title}</a>
+					<a href={href} class={`text-zinc-400 pr-4 hover:text-zinc-300 ${Astro.url.pathname === href ? "font-extrabold underline " : ""}`}>{title}</a>
 				))}
 			</header>
 			<slot />
-			<footer class="text-zinc-400 text-xs mt-8">
+			<footer class="text-zinc-400 text-xs mt-8 ">
 					<a class="hover:text-zinc-100" href="https://github.com/ayushsharma74/">github</a>
 					<a class="hover:text-zinc-100" href="https://x.com/ayshtwt">twitter</a>
 			</footer>
