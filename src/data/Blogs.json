@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Vertical Scaling vs Horizontal Scaling",
+        "description": "A detailed comparison of vertical and horizontal scaling in distributed systems, including their advantages, disadvantages, and use cases.",
+        "date": "20 May, 2025",
+        "slug": "vertical-scaling-vs-horizontal-scaling"
+    },
+    {
+        "title": "Implementing Authentication in NextJS 15 with better auth and MongoDB",
+        "description": "I found better-auth strikes the perfect balance between simplicity and flexibility. It's lightweight, well-documented, and most importantly, it just works without too much configuration headache.",
+        "date": "12 May, 2025",
+        "slug": "null"
+    }
+]

@@ -1,0 +1,21 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import BlogData from "../../data/Blogs.json"
+---
+
+<Layout title="Ayush | Blogs">
+{BlogData.map((b) => (
+    
+	<a class="mx-6" href={`/blogs/${b.slug}`}>
+  <div class="">
+    <h2 class="text-zinc-300 text-md font-bold">{b.title}</h2>
+    <p class="text-zinc-300 text-xs">{b.date}</p>
+  </div>
+  <p class="text-zinc-400 text-xs mt-1">
+    {b.description}
+  </p>
+  
+</a>
+))}    
+
+</Layout>

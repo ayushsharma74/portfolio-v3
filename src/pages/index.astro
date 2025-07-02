@@ -7,18 +7,72 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Ayush | Home">
-  <section>
+  <section class="mt-8">
     <h1 class="text-2xl text-zinc-300">Hey, I'm Ayush</h1>
+
     <h2 class="text-zinc-300 text-md mt-6">~/whoami</h2>
     <p class="text-zinc-400 text-sm">
       I'm a Framework agnostic developer from india who loves to code. I have a
       strong interest in web development and I'm always looking to learn new
       technologies and frameworks.
     </p>
+    <div class="flex items-center gap-2 mt-2">
+      <a href="https://x.com/ayshtwt">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 16 16"
+          ><path
+            fill="#f1f1f1"
+            d="M9.294 6.928L14.357 1h-1.2L8.762 6.147L5.25 1H1.2l5.31 7.784L1.2 15h1.2l4.642-5.436L10.751 15h4.05zM7.651 8.852l-.538-.775L2.832 1.91h1.843l3.454 4.977l.538.775l4.491 6.47h-1.843z"
+          ></path></svg
+        >
+      </a>
+      <a href="https://github.com/ayushsharma74">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          ><g
+            fill="none"
+            stroke="#f1f1f1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            ><path
+              d="M16 22.027v-2.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7a5.44 5.44 0 0 0-1.5-3.75a5.07 5.07 0 0 0-.09-3.77s-1.18-.35-3.91 1.48a13.4 13.4 0 0 0-7 0c-2.73-1.83-3.91-1.48-3.91-1.48A5.07 5.07 0 0 0 5 5.797a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7a3.37 3.37 0 0 0-.94 2.58v2.87"
+            ></path><path d="M9 20.027c-3 .973-5.5 0-7-3"></path></g
+          ></svg
+        >
+      </a>
+      <a href="">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          ><path
+            fill="#f1f1f1"
+            d="M18.44 3.06H5.56a2.507 2.507 0 0 0-2.5 2.5v12.88a2.507 2.507 0 0 0 2.5 2.5h12.88a2.5 2.5 0 0 0 2.5-2.5V5.56a2.5 2.5 0 0 0-2.5-2.5m1.5 15.38a1.51 1.51 0 0 1-1.5 1.5H5.56a1.51 1.51 0 0 1-1.5-1.5V5.56a1.51 1.51 0 0 1 1.5-1.5h12.88a1.51 1.51 0 0 1 1.5 1.5Z"
+          ></path><path
+            fill="#f1f1f1"
+            d="M6.376 10.748a1 1 0 1 1 2 0v6.5a1 1 0 0 1-2 0Z"></path><circle
+            cx="7.376"
+            cy="6.744"
+            r="1"
+            fill="#f1f1f1"></circle><path
+            fill="#f1f1f1"
+            d="M17.62 13.37v3.88a1 1 0 1 1-2 0v-3.88a1.615 1.615 0 1 0-3.23 0v3.88a1 1 0 0 1-2 0v-6.5a1.016 1.016 0 0 1 1-1a.94.94 0 0 1 .84.47a3.61 3.61 0 0 1 5.39 3.15"
+          ></path></svg
+        >
+      </a>
+    </div>
   </section>
 
   <section class="mt-8">
     <h2 class="text-zinc-300 text-lg">Projects</h2>
-	<Projects />
+    <Projects />
   </section>
 </Layout>

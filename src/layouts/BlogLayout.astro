@@ -1,5 +1,7 @@
 ---
+import Prose from "../components/Prose.astro";
 import "../styles/global.css";
+const {frontmatter} = Astro.props;
 
 const navigation = [
 	{ title: "Home", href: "/" },
@@ -16,16 +18,20 @@ const navigation = [
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{Astro.props.title}</title>
+		<title>{frontmatter.title}</title>
 	</head>
 	<body class="terminal-scanlines bg-zinc-900 min-h-screen text-gray-900 font-mono">
 		<main class="max-w-lg mx-auto px-4 py-8">
-			<header class="text-sm">
+			<header class="mb-8 text-sm">
 				{navigation.map(({title, href}) => (
 					<a href={href} class={`text-zinc-400 pr-4 hover:text-zinc-300 ${Astro.url.pathname === href ? "font-extrabold " : ""}`}>{title}</a>
 				))}
 			</header>
-			<slot />
+            <h1 class="text-2xl text-zinc-300 ">{frontmatter.title}</h1>
+            <p class="text-zinc-400 text-sm mt-2">{frontmatter.date}</p>
+            <Prose>
+			    <slot />
+            </Prose>
 		</main>
 	</body>
 </html>
