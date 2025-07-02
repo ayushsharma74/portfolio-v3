@@ -8,6 +8,8 @@ const navigation = [
 	// { title: "Worklog", href: "/worklog" },
 	{ title: "Projects", href: "/projects" },
 ];
+
+const { pathname } = Astro.url
 ---
 
 <!doctype html>
@@ -24,7 +26,7 @@ const navigation = [
 		<main class="max-w-xl mx-auto px-4 py-8">
 			<header class="text-sm">
 				{navigation.map(({title, href}) => (
-					<a href={href} class={`text-zinc-400 pr-4 hover:text-zinc-300 ${Astro.url.pathname === href ? "font-extrabold underline " : ""}`}>{title}</a>
+					<a href={href} class={`text-zinc-400 pr-4 hover:text-zinc-300 ${pathname === href ? "font-extrabold underline " : ""}`}>{title}</a>
 				))}
 			</header>
 			<slot />
