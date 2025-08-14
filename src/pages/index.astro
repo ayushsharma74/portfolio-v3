@@ -1,6 +1,7 @@
 ---
 import Projects from "../components/Projects.astro";
 import Work from "../components/Work.astro";
+import OpenSource from "../components/OpenSource.astro";
 import Layout from "../layouts/Layout.astro";
 import ProjectsData from "../data/projects.json";
 const { pathname } = Astro.url;
@@ -73,11 +74,16 @@ const { pathname } = Astro.url;
   </section>
 
   <section class="mt-8">
-    <h2 class="text-zinc-200 text-lg font-bold">~/work</h2>
+    <h2 class="text-zinc-200 text-lg font-bold">Merged PR's</h2>
+    <OpenSource />
+  </section>
+
+  <section class="mt-8">
+    <h2 class="text-zinc-200 text-lg font-bold">Work</h2>
     <Work />
   </section>
   <section class="mt-8">
-    <h2 class="text-zinc-200 text-lg font-bold">~/projects</h2>
+    <h2 class="text-zinc-200 text-lg font-bold">Projects</h2>
     {
       ProjectsData.map((p) => (
         <Projects

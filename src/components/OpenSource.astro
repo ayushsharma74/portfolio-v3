@@ -1,0 +1,19 @@
+---
+import MergedPRs from "../data/MergedPRs.json"
+---
+
+
+<div>
+    {MergedPRs.map((org) => (
+        <div class="mt-4">
+            <a href={org.link} target="_blank">
+                <h1 class="text-zinc-300 text-md font-semibold underline hover:no-underline mb-1 w-fit">{org.name}</h1>
+            </a>
+            {org.prs.map((pr) => (
+                <a href={pr.link} target="_blank">
+                    <p class="text-zinc-400 hover:text-zinc-200 text-xs">{pr.title}</p>
+                </a>
+            ))}
+        </div>
+    ))}
+</div>

@@ -1,0 +1,76 @@
+[
+    {
+        "name": "antiwork/gumboard",
+        "link": "https://github.com/antiwork/gumboard/pulls?q=is%3Apr+is%3Amerged+author%3Aayushsharma74",
+        "prs": [
+            {
+                "title": "refactor(ui): migrate dropdown to shadcn components",
+                "link": "https://github.com/antiwork/gumboard/pull/271"
+            },
+            {
+                "title": "refactor(ui): migrate new user dropdown to all pages",
+                "link": "https://github.com/antiwork/gumboard/pull/280"
+            },
+            {
+                "title": "fix(api): include _count.notes in board creation response",
+                "link": "https://github.com/antiwork/gumboard/pull/54"
+            },
+            {
+                "title": "fix: remove validation check on content to prevent error on note creation in all-notes page ",
+                "link": "https://github.com/antiwork/gumboard/pull/163"
+            },
+            {
+                "title": "refactor(ui): migrated html form to shadcn and introduced validation using zod",
+                "link": "https://github.com/antiwork/gumboard/pull/225"
+            },
+            {
+                "title": "fix(ui): added darkmode styling to close-dialog icon",
+                "link": "https://github.com/antiwork/gumboard/pull/285"
+            },
+            {
+                "title": "feat(ui): rotate chevron icon on opening dropdown ",
+                "link": "https://github.com/antiwork/gumboard/pull/229"
+            },
+            {
+                "title": "fix: added dark mode styling for description label",
+                "link": "https://github.com/antiwork/gumboard/pull/260"
+            },
+            {
+                "title": "fix(ui): prevent notes count text from wrapping",
+                "link": "https://github.com/antiwork/gumboard/pull/305"
+            }
+        ]
+    },
+    {
+        "name": "Mail-0/Zero",
+        "link": "https://github.com/Mail-0/Zero/pulls?q=is%3Apr+author%3Aayushsharma74+is%3Amerged",
+        "prs": [
+            {
+                "title": "feat: add range selection support for thread list",
+                "link": "https://github.com/Mail-0/Zero/pull/1856"
+            },
+            {
+                "title": "fix: prevent browser search from triggering on Ctrl+K",
+                "link": "https://github.com/Mail-0/Zero/pull/1757"
+            },
+            {
+                "title": "fix: Trigger refetch() after label creation toast completes ",
+                "link": "https://github.com/Mail-0/Zero/pull/1889"
+            },
+            {
+                "title": "fix: auto-focus reply input when reply is triggered",
+                "link": "https://github.com/Mail-0/Zero/pull/1841"
+            }
+        ]
+    },
+    {
+        "name": "antiwork/gumroad",
+        "link": "https://github.com/antiwork/gumroad/pulls?q=is%3Apr+is%3Amerged+author%3Aayushsharma74",
+        "prs": [
+            {
+                "title": "fix(ui): prevent GitHub stars count from wrapping on mobile",
+                "link": "https://github.com/antiwork/gumroad/pull/653"
+            }
+        ]
+    }
+]
