@@ -24,6 +24,10 @@
                 "link": "https://github.com/antiwork/gumboard/pull/225"
             },
             {
+                "title": "fix: dark mode styles in notes checklist",
+                "link": "https://github.com/antiwork/gumboard/pull/399"
+            },
+            {
                 "title": "fix(ui): added darkmode styling to close-dialog icon",
                 "link": "https://github.com/antiwork/gumboard/pull/285"
             },
