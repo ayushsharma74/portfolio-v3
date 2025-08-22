@@ -20,6 +20,10 @@
                 "link": "https://github.com/antiwork/gumboard/pull/54"
             },
             {
+                "title": "fix(ui): remove hover bg from note checklist",
+                "link": "https://github.com/antiwork/gumboard/pull/455"
+            },
+            {
                 "title": "fix: remove validation check on content to prevent error on note creation in all-notes page ",
                 "link": "https://github.com/antiwork/gumboard/pull/163"
             },
