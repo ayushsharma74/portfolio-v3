@@ -62,6 +62,10 @@
                 "link": "https://github.com/Mail-0/Zero/pull/1856"
             },
             {
+                "title": "Fix: landing page footer responsive layout on mobile",
+                "link": "https://github.com/Mail-0/Zero/pull/1777"
+            },
+            {
                 "title": "fix: prevent browser search from triggering on Ctrl+K",
                 "link": "https://github.com/Mail-0/Zero/pull/1757"
             },
@@ -82,6 +86,20 @@
             {
                 "title": "fix(ui): prevent GitHub stars count from wrapping on mobile",
                 "link": "https://github.com/antiwork/gumroad/pull/653"
+            },
+            {
+                "title": "fix(ui): previous week payout section responsive styles",
+                "link": "https://github.com/antiwork/gumroad/pull/982"
+            }
+        ]
+    },
+    {
+        "name": "ossdotnow/ossdotnow",
+        "link": "https://github.com/ossdotnow/ossdotnow/pulls?q=is%3Apr+is%3Amerged+author%3Aayushsharma74",
+        "prs": [
+            {
+                "title": "fix: replaced deprecated docker commands from package.json",
+                "link": "https://github.com/ossdotnow/ossdotnow/pull/206"
             }
         ]
     }
