@@ -16,6 +16,10 @@
                 "link": "https://github.com/antiwork/gumboard/pull/280"
             },
             {
+                "title": "refactor(ui): board selector dropdown migration to shadcn",
+                "link": "https://github.com/antiwork/gumboard/pull/685"
+            },
+            {
                 "title": "fix(api): include _count.notes in board creation response",
                 "link": "https://github.com/antiwork/gumboard/pull/54"
             },
