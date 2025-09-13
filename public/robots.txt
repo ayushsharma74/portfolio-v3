@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://your-project.netlify.app/sitemap-index.xml
+Sitemap: https://ayushsharma.devian.in/sitemap-index.xml
