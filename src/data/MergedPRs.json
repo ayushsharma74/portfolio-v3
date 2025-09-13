@@ -11,7 +11,7 @@
                 "title": "refactor(ui): migrate dropdown to shadcn components",
                 "link": "https://github.com/antiwork/gumboard/pull/271"
             },
-            {
+            { 
                 "title": "refactor(ui): migrate new user dropdown to all pages",
                 "link": "https://github.com/antiwork/gumboard/pull/280"
             },
