@@ -10,6 +10,10 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
   site: "https://ayush.devian.in",
-  integrations: [sitemap()],
+  integrations: [sitemap({
+    changefreq: "daily",
+    priority: 1.0,
+    lastmod: new Date()
+  })],
   adapter: vercelAdapter()
 });
