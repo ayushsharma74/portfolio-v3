@@ -9,7 +9,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
-  site: "https://ayushsharma.devian.in",
+  site: "https://ayush.devian.in",
   integrations: [sitemap()],
   adapter: vercelAdapter()
 });
