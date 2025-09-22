@@ -96,6 +96,10 @@
                 "link": "https://github.com/antiwork/gumroad/pull/653"
             },
             {
+                "title": "refactor(ui): migrate checkout form inline css to tailwind",
+                "link": "https://github.com/antiwork/gumroad/pull/1229"
+            },
+            {
                 "title": "fix(ui): previous week payout section responsive styles",
                 "link": "https://github.com/antiwork/gumroad/pull/982"
             }
