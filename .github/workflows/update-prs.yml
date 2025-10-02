@@ -2,11 +2,13 @@ name: Update Merged PRs JSON
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
+
+permissions:
+  contents: write
 
 jobs:
   update-prs:
