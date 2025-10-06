@@ -1,7 +1,7 @@
 import fs from "fs";
 import prs from "../data/MergedPRs.json" assert { type: "json" };
 const username = "ayushsharma74";
-const repos = ["antiwork/gumroad", "antiwork/gumboard", "Mail-0/Zero"];
+const repos = ["antiwork/gumroad", "antiwork/gumboard", "antiwork/flexile" , "Mail-0/Zero"];
 const outputFile = "src/data/MergedPRs.json";
 
 async function UpdatePullRequests() {
