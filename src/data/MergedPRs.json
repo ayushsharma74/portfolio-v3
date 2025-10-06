@@ -138,5 +138,19 @@
         "link": "https://github.com/ossdotnow/ossdotnow/pull/206"
       }
     ]
+  },
+  {
+    "name": "antiwork/flexile",
+    "link": "https://github.com/antiwork/flexile/pulls?q=is%3Apr+is%3Amerged+author%3Aayushsharma74",
+    "prs": [
+      {
+        "title": "refactor: remove comments from loading file",
+        "link": "https://github.com/antiwork/flexile/pull/1392"
+      },
+      {
+        "title": "feat(perf): add loading skeleton to invoice page",
+        "link": "https://github.com/antiwork/flexile/pull/1391"
+      }
+    ]
   }
 ]
