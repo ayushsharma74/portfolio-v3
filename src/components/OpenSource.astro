@@ -1,19 +1,32 @@
 ---
-import MergedPRs from "../data/MergedPRs.json"
+import MergedPRs from "../data/MergedPRs.json";
+function calculateMergedPRCount(){
+    let count = 0
+    MergedPRs.map((repo) => {
+        repo.prs.forEach(() => count++)
+    })
+    return count
+}
 ---
 
-
 <div>
-    {MergedPRs.map((org) => (
-        <div class="mt-4">
-            <a href={org.link} target="_blank">
-                <h1 class="text-zinc-300 text-md font-semibold underline hover:no-underline mb-1 w-fit">{org.name}</h1>
-            </a>
-            {org.prs.map((pr) => (
-                <a href={pr.link} target="_blank">
-                    <p class="text-zinc-400 hover:text-zinc-200 text-xs">{pr.title}</p>
+    <h2 class="text-zinc-200 text-lg font-bold">Merged PR's ({calculateMergedPRCount})</h2>
+    {
+        MergedPRs.map((org) => (
+            <div class="mt-4">
+                <a href={org.link} target="_blank">
+                    <h1 class="text-zinc-300 text-md font-semibold underline hover:no-underline mb-1 w-fit">
+                        {org.name}
+                    </h1>
                 </a>
-            ))}
-        </div>
-    ))}
+                {org.prs.map((pr) => (
+                    <a href={pr.link} target="_blank">
+                        <p class="text-zinc-400 hover:text-zinc-200 text-xs">
+                            {pr.title}
+                        </p>
+                    </a>
+                ))}
+            </div>
+        ))
+    }
 </div>
