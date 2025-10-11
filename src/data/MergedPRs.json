@@ -150,6 +150,10 @@
       {
         "title": "feat(perf): add loading skeleton to invoice page",
         "link": "https://github.com/antiwork/flexile/pull/1391"
+      },
+      {
+        "title": "fix: bottom bar and dropdown visible on printout in mobile",
+        "link": "https://github.com/antiwork/flexile/pull/1400"
       }
     ]
   }
