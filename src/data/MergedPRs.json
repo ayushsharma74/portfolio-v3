@@ -154,6 +154,10 @@
       {
         "title": "fix: bottom bar and dropdown visible on printout in mobile",
         "link": "https://github.com/antiwork/flexile/pull/1400"
+      },
+      {
+        "title": "perf(ui): add loading skeleton to tax settings",
+        "link": "https://github.com/antiwork/flexile/pull/1428"
       }
     ]
   }
