@@ -1,30 +1,37 @@
 [
-    {
-        "title": "HackToGSoC",
-        "description": "A platform to help students get started with open source for Google Summer of Code.",
-        "github": "http://github.com/ayushsharma74/hackToGSoC",
-        "live": "https://hacktogsoc.vercel.app/",
-        "techs": "ReactJS / NextJS / Shadcn UI / MagicUI / TailwindCSS / Web Scraping"
-    },
-    {
-        "title": "Vizack",
-        "description": "A buisness portfolio for Vizack Enterprises.",
-        "live": "https://www.vizackenterprises.com/",
-        "github": "no",
-        "techs": "ReactJS / NextJS / Shadcn UI / TailwindCSS / Framer Motion"
-    },
-    {
-        "title": "Similarity Search",
-        "description": "Similarity search on a dataset of movies using vector embeddings",
-        "techs": "ReactJS / NextJS / TailwindCSS / Vector Embeddings / AstraDB",
-        "github": "https://github.com/ayushsharma74/similaritysearch-system",
-        "live": "https://similaritysearch-system-t1mg.vercel.app/"
-    },
-    {
-        "title": "CodeHub",
-        "description": "A platform curating 1000+ leetcode problems with video and text solutions.",
-        "techs": "ReactJS / NextJS / Shadcn UI / MagicUI / TailwindCSS / Web Scraping",
-        "github": "https://github.com/ayushsharma74/codehub",
-        "live": "https://thecodehub.vercel.app/"
-    }
-] 
+  {
+    "title": "HackToGSoC",
+    "description": "A platform to help students get started with open source for Google Summer of Code.",
+    "github": "http://github.com/ayushsharma74/hackToGSoC",
+    "live": "https://hacktogsoc.vercel.app/",
+    "techs": "ReactJS / NextJS / Shadcn UI / MagicUI / TailwindCSS / Web Scraping"
+  },
+  {
+    "title": "Monify",
+    "description": "Try a new, better way of building customer-facing integrations for SaaS products.",
+    "github": "https://github.com/ayushsharma74/monify",
+    "live": "https://monify.devian.in/",
+    "techs": "ReactJS / NextJS / Shadcn UI / TailwindCSS / Framer Motion"
+  },
+  {
+    "title": "Vizack",
+    "description": "A buisness portfolio for Vizack Enterprises.",
+    "live": "https://www.vizackenterprises.com/",
+    "github": "no",
+    "techs": "ReactJS / NextJS / Shadcn UI / TailwindCSS / Framer Motion"
+  },
+  {
+    "title": "Similarity Search",
+    "description": "Similarity search on a dataset of movies using vector embeddings",
+    "techs": "ReactJS / NextJS / TailwindCSS / Vector Embeddings / AstraDB",
+    "github": "https://github.com/ayushsharma74/similaritysearch-system",
+    "live": "https://similaritysearch-system-t1mg.vercel.app/"
+  },
+  {
+    "title": "CodeHub",
+    "description": "A platform curating 1000+ leetcode problems with video and text solutions.",
+    "techs": "ReactJS / NextJS / Shadcn UI / MagicUI / TailwindCSS / Web Scraping",
+    "github": "https://github.com/ayushsharma74/codehub",
+    "live": "https://thecodehub.vercel.app/"
+  }
+]
