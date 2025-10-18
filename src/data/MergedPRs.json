@@ -158,6 +158,18 @@
       {
         "title": "perf(ui): add loading skeleton to tax settings",
         "link": "https://github.com/antiwork/flexile/pull/1428"
+      },
+      {
+        "title": "perf(ui): add loading skeleton to template settings",
+        "link": "https://github.com/antiwork/flexile/pull/1456"
+      },
+      {
+        "title": "perf(ui): add loading skeleton to equity settings",
+        "link": "https://github.com/antiwork/flexile/pull/1453"
+      },
+      {
+        "title": "perf(ui): add loading skeleton to company details page",
+        "link": "https://github.com/antiwork/flexile/pull/1452"
       }
     ]
   }
