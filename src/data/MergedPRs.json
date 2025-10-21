@@ -170,6 +170,10 @@
       {
         "title": "perf(ui): add loading skeleton to company details page",
         "link": "https://github.com/antiwork/flexile/pull/1452"
+      },
+      {
+        "title": "feat: add border top in mobile navbar",
+        "link": "https://github.com/antiwork/flexile/pull/1465"
       }
     ]
   }
