@@ -4,6 +4,8 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import vercelAdapter from '@astrojs/vercel';
 
+import cloudflare from '@astrojs/cloudflare';
+
 // https://astro.build/config
 export default defineConfig({
   vite: {
@@ -15,5 +17,5 @@ export default defineConfig({
     priority: 1.0,
     lastmod: new Date()
   })],
-  adapter: vercelAdapter()
+  adapter: cloudflare()
 });
