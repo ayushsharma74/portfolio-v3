@@ -5,7 +5,7 @@
     "github": "http://github.com/ayushsharma74/superblogger",
      "live": "https://superblogger.site" ,
     "techs": "ReactJS / NextJS / Convex / Shadcn UI / TailwindCSS / Framer Motion " ,
-  }
+  },
   {
     "title": "HackToGSoC",
     "description": "A platform to help students get started with open source for Google Summer of Code.",
